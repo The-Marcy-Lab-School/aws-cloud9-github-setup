@@ -44,7 +44,7 @@ git config --global credential.helper store
 
 2. Back in your Cloud9 terminal, choose a location for your working directory and run `git clone <https_url>`, using the URL you copied from the previous step. Then `cd` into that project.
 
-3. Once your repo can been cloned down, use the Cloud9 IDE to update the README.md (you can work on the `master` branch). Add a 3-4 sentence bio about yourself. Be sure to save the file.
+3. Once your repo can been cloned down, use the Cloud9 IDE to update the README.md (you can work on the `master` branch). **Add a 3-4 sentence bio about yourself**. Be sure to save the file.
 
 4. Push the changes back up to Github using best practices:
 ```sh
