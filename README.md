@@ -38,7 +38,7 @@ git config --global credential.helper store
 
 ### Clone Using HTTPS
 
-1. Click on the Code button and make sure the pop-up says "Clone with HTTPS". The url should start with `https://github.com/...`. If this is not the case, click the link that say `Use HTTPS`. Copy that URL in the text box.
+1. Click on the Code button and make sure the pop-up says "Clone with HTTPS". The url should start with `https://github.com/...`. If this is not the case, click the link that say `HTTPS`. Copy that URL in the text box.
 
 ![3](./assets/3.png)
 
