@@ -36,28 +36,9 @@ git config --global credential.helper store
 
 ![2](./assets/2.png)
 
-### Clone Using HTTPS
-
-1. Click on the Code button and make sure the pop-up says "Clone with HTTPS". The url should start with `https://github.com/...`. If this is not the case, click the link that say `HTTPS`. Copy that URL in the text box.
-
-![3](./assets/3.png)
-
-2. Back in your Cloud9 terminal, choose a location for your working directory and run `git clone <https_url>`, using the URL you copied from the previous step. Then `cd` into that project.
-
-3. Once your repo can been cloned down, use the Cloud9 IDE to update the README.md (you can work on the `master` branch). **Add a 3-4 sentence bio about yourself**. Be sure to save the file.
-
-4. Push the changes back up to Github using best practices:
-```sh
-git status
-git add README.md
-git commit -m "added bio"
-git push
-```
-**Note:** You may be prompted to provide your Github username and password. Because you cloned using HTTPS and configured `credential.helper`, you will only need to provide your credentials **once per repository**.
-
 ### Add SSH Key
 
-While we're configuring GitHub, we should add a new SSH key. Unlike with HTTPS, setting this key up will keep you from having to provide your username and password whenever you use the terminal to interact with GitHub.
+While we're configuring GitHub, we should add a new SSH key. 
 
 1. First, check if you already have an SSH key by running `cat ~/.ssh/id_rsa.pub`. If the terminal prints out a long string of characters starting with ssh-rsa, you've already got a key.
 
@@ -85,18 +66,19 @@ Put whatever you want for the title, but preferably something related to C9 sinc
 
 ### Clone Using SSH
 
-Cloning with HTTPS will require your credentials once per cloned repo, but using SSH allows you to bypass this annoying interruption in your work flow.
+1. Click on the Code button and make sure the pop-up has "SSH" underlined and selected. The url should start with `git@github.com:...`. If this is not the case, click the link that say `SSH`. Copy that URL in the text box.
 
-1. Create another repository just like the one from before, except this time, call it `my-second-repo`. Create it as a public repo and with a README.md.
+![3](./assets/3.png)
 
-2. This time, after you click the "Code" button, proceed to click on the "Use SSH" link. This will change the URL in the text box to something like `git@github.com:...`. Copy this URL.
+2. Back in your Cloud9 terminal, choose a location for your working directory and run `git clone <ssh_url>`, using the URL you copied from the previous step. If asked, "Are you sure you want to continue connecting", type `yes`. Then `cd` into your project. 
 
-![9](./assets/9.png)
+3. Once your repo can been cloned down, use the Cloud9 IDE to update the README.md (you can work on the `master` branch). **Add a 3-4 sentence bio about yourself**. Be sure to save the file.
 
-3. Clone the repo using your Cloud9 terminal: `git clone <ssh_url>`. If asked, "Are you sure you want to continue connecting", type `yes`. Then `cd` into your project.
-
-4. Make changes to the `README.md` file, commit, and push those changes back up.
-
-5. Now that your SSH key is set up, you will not have to provide your username and password ever again while you're working in the terminal as long as you always clone using SSH.
-
-**Note:** If you have enabled 2-Factor-Authentication on your Github Account, you should only be cloning using SSH since it interferes with your terminal's ability to login using just your password.
+4. Push the changes back up to Github using best practices:
+```sh
+git status
+git add README.md
+git commit -m "added bio"
+git push
+```
+5. Go back to viewing your repository in the browser. Refresh the page and confirm that you see you bio!
