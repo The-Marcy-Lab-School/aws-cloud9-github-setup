@@ -68,7 +68,7 @@ Put whatever you want for the title, but preferably something related to C9 sinc
 
 1. Click on the Code button and make sure the pop-up has "SSH" underlined and selected. The url should start with `git@github.com:...`. If this is not the case, click the link that say `SSH`. Copy that URL in the text box.
 
-![3](./assets/3.png)
+![13](./assets/13.png)
 
 2. Back in your Cloud9 terminal, choose a location for your working directory and run `git clone <ssh_url>`, using the URL you copied from the previous step. If asked, "Are you sure you want to continue connecting", type `yes`. Then `cd` into your project. 
 
