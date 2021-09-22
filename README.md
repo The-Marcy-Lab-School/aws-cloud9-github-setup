@@ -70,7 +70,7 @@ Put whatever you want for the title, but preferably something related to C9 sinc
 
 ![13](./assets/13.png)
 
-2. Back in your Cloud9 terminal, `cd` into your `Unit-0` folder and clone down the project using `git clone <ssh_url>`, using the URL you copied from the previous step. If asked, "Are you sure you want to continue connecting", type `yes`. Then `cd` into your project. 
+2. Back in your Cloud9 terminal, `cd` into your `Unit-0` folder and clone down the project using `git clone <ssh_url>`, using the URL you copied from the previous step. If asked, "Are you sure you want to continue connecting", type `yes`. Then change directory into your project `cd my-first-repo` or whatever you named your repository. 
 
 3. Once your repo can been cloned down, use the Cloud9 IDE to update the README.md (you can work on the `master` branch). **Add a 3-4 sentence bio about yourself**. Be sure to save the file.
 
@@ -81,4 +81,4 @@ git add README.md
 git commit -m "added bio"
 git push
 ```
-5. Go back to viewing your repository in the browser. Refresh the page and confirm that you see your bio!
+5. Go back to Github to view your repository in the browser. Refresh the page and confirm that you see your newly added bio!
