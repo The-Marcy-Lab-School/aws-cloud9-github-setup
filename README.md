@@ -72,9 +72,9 @@ Put whatever you want for the title, but preferably something related to C9 sinc
 
 2. Back in your Cloud9 terminal, `cd` into your `Unit-0` folder and clone down the project using `git clone <ssh_url>`, using the URL you copied from the previous step. If asked, "Are you sure you want to continue connecting", type `yes`. Then change directory into your project `cd my-first-repo` or whatever you named your repository. 
 
-3. Once your repo can been cloned down, use the Cloud9 IDE to update the README.md (you can work on the `master` branch). **Add a 3-4 sentence bio about yourself**. Be sure to save the file.
+3. Once your repo can been cloned down, use the Cloud9 IDE to update the `README.md` of your project. **Add a 3-4 sentence bio about yourself**. Be sure to save the file.
 
-4. Push the changes back up to Github using best practices:
+4. Push the changes back up to Github using best practices. In the terminal, run:
 ```sh
 git status
 git add README.md
