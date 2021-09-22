@@ -66,7 +66,7 @@ Put whatever you want for the title, but preferably something related to C9 sinc
 
 ### Clone Using SSH
 
-1. Click on the Code button and make sure the pop-up has "SSH" underlined and selected. The url should start with `git@github.com:...`. If this is not the case, click the link that say `SSH`. Copy that URL in the text box.
+1. Go back to your repository on Github. Then, click on the Code button and make sure the pop-up has "SSH" underlined and selected. The url should start with `git@github.com:...`. If this is not the case, click the link that say `SSH`. Copy that URL in the text box.
 
 ![13](./assets/13.png)
 
