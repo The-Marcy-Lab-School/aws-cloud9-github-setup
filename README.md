@@ -16,10 +16,10 @@ FWBAT...
 
 ### Configure Github in the AWS Terminal
 
-1. Open up your Cloud9 environment. Run the following lines in the terminal:
+1. Open up your Cloud9 environment. Run the following lines in the terminal, replacing the username and email with your Github username and email:
 
 ```sh
-git config --global user.name "Your Name"
+git config --global user.name "Your Github Username"
 git config --global user.email "Your Github Email Address"
 git config --global credential.helper store
 ```
